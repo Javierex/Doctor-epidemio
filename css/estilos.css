@@ -33,12 +33,13 @@ header a {
 
 .navbar {
 	z-index: 3;
+	width: 100%;
 }
 
 .body .container{
 	
 	background: white;
-	width: 105%;
+	width: 100%;
 }
 .body p, .body h2 {
 	text-align: center;
@@ -55,8 +56,11 @@ header a {
 	border-radius: 20px;
 }
 
+.footer {
+	width: 100%;
+}
 .footer .container {
-	width: 110%;
+	width: 100%;
 	background-color: black;
 	color: white;
 }
