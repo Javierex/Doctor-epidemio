@@ -1,0 +1,334 @@
+.fixed {
+	background: #000 url(../img/imagen.jpg) no-repeat 0 0;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+}
+
+.fixed2 {
+	background: #60564d url() no-repeat 0 0;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+}
+
+.title {
+	margin-top: 3em;
+}
+
+header a {
+	text-align: center;
+}
+.nav-item {
+	margin-left: 1em;
+	text-align: center;
+}
+
+.header .margen {
+	margin-left: 2em;
+}
+
+.derecha {
+	margin-left: 10em;
+}
+
+.tamano {
+	font-size: 1em;
+}
+
+.header button {
+	margin-top: 1em;
+	margin-bottom: 5em;
+}
+
+.navbar {
+	z-index: 3;
+	width: 100%;
+}
+
+.body .container, .body-servicios .container{
+	
+	background: white;
+	width: 100%;
+}
+.body p, .body a{
+	text-align: justify;
+}
+
+.body h2 {
+	text-align: center;
+	margin-top: 1em;
+}
+
+.borde {
+	border: 1px solid #60564d;
+	margin-top: 2em;
+	margin-bottom: 4em;
+	border-radius: 20px;
+}
+
+.footer {
+	width: 100%;
+}
+
+.footer {
+
+}
+.footer .container {
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+.footer .container h5 {
+	margin-top: 3em;
+}
+
+
+.rounded-circle {
+	background-color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 1px;
+    text-decoration: none;
+    margin-bottom: 2em;
+    border: 2px solid black;
+}
+
+.rounded-circle:hover {
+	text-decoration: none;
+}
+
+.rounded-circle:focus {
+	text-decoration: none;
+}
+
+.items {
+	margin-bottom: 4em;
+	margin: 0 32px;
+}
+
+.footer .top {
+	padding: 1em 1em;
+	position: absolute;
+    top: -0.7em;
+    left: 49%;
+    margin: -1.25em 0 0 -1.25em;
+    background-color: #e28315;
+    height: 4em;
+    width: 4em;
+    color: white;
+    transition: 1s;
+}
+
+.footer .rounded-circle.top:hover {
+ transition: height 2s linear;
+
+}
+
+.footer a {
+	color: black;
+}
+
+.footer .centrado {
+	top: 0;
+}
+
+.footer .container {
+	padding-bottom: 3em;
+}
+
+.fa-whatsapp {
+	color: green;
+}
+
+.contacto {
+	padding-top: 3em;
+    padding-bottom: 4em;
+}
+
+.contacto .form label {
+	display: block;
+	margin-top: 1em;
+}
+
+.contacto .form .row input {
+	width: 100%;
+}
+
+.contacto .form textarea {
+	width: 100%;
+	height: 7em;
+}
+
+.contacto hr {
+	margin-right: 9%;
+}
+
+.contacto a {
+	color: black;
+}
+
+.btn.enviar {
+	margin-top: 1em;
+}
+
+.servicios {
+	text-align: center;
+	background-color: 
+}
+
+.servicios h1 {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	color: white;
+}
+
+.introduccion h2{
+	margin-top: 2em;
+	text-align: center;
+}
+
+.introduccion p{
+	text-align: justify;
+}
+
+.espacio {
+	margin-left: 3em;
+}
+
+.body-servicios .borde{
+	margin-bottom: 2em;
+
+}
+.body-servicios .row{
+	min-height: 16em;
+}
+
+.body-servicios h3{
+	margin-top: 1em;
+}
+
+
+.none{
+	display: none;
+}
+
+
+@media (max-width: 576px) { 
+	.derecha {
+		margin-left: -2em;
+	}
+	
+	.footer .top {
+		left: 48%;
+	}
+
+	.header .container {
+		text-align: center;
+	}
+
+	.title {
+		margin-top: 2em;
+	}
+
+	.espacio {
+		margin-left: 0em;
+	}
+	.body-servicios .borde{
+		margin-bottom: 0em;
+	}
+}
+
+@media (min-width: 576px) { 
+	.container.block {
+		display: block;
+	}
+	.derecha {
+		margin-left: -9em;
+	}
+	.cero-derecha {
+		margin-left: 4em;
+	}
+	.navbar-brand {
+		margin-left: 10em;
+	}
+	
+	.footer .top {
+		left: 48%;
+	}
+
+	.header .container {
+		text-align: center;
+	}
+	.espacio {
+		margin-left: 0em;
+	}
+
+	.body-servicios .borde{
+		margin-bottom: 0em;
+	}
+
+}
+
+
+
+@media (min-width: 768px) { 
+
+	.derecha {
+		margin-left: 1em;
+	}
+
+	.nav-item {
+		margin-left: 0em;
+	}
+
+	.container.block {
+		display: flex;
+	}
+
+	.navbar-brand {
+		margin-left: 0;
+	}
+	
+	.footer .top {
+		left: 49%;
+	}
+
+	.header .container {
+		text-align: left;
+	}
+
+	.espacio {
+		margin-left: 3em;
+	}
+
+	.body-servicios .borde{
+	margin-bottom: 2em;
+}
+}
+
+@media (min-width: 992px) { 
+	.derecha {
+		margin-left: 1em;
+	}
+
+	.footer .top {
+		left: 49%;
+	}
+
+}
+
+@media (min-width: 1200px) { 
+	.derecha {
+		margin-left: 8em;
+	}
+ }
+
+
