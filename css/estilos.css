@@ -74,10 +74,13 @@ header a {
 .footer {
 	width: 100%;
 }
+<<<<<<< HEAD
 
 .footer {
 
 }
+=======
+>>>>>>> aaf8e52fe5b1f6969159afdbc706214a922570c9
 .footer .container {
 	width: 100%;
 	background-color: black;
