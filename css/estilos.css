@@ -50,21 +50,10 @@ header a {
 	width: 100%;
 }
 
-<<<<<<< HEAD
-.bg-inverse {
-	width: 110%;
-}
-
-.body .container{
-	
-	background: white;
-	width: 110%;
-=======
 .body .container, .body-servicios .container{
 	
 	background: white;
 	width: 100%;
->>>>>>> gh-pages
 }
 .body p, .body a{
 	text-align: justify;
