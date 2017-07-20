@@ -15,10 +15,40 @@ $("inicio").hover(function () {
     $(this).addClass('fa-cogs');
   });
 
-$("#excelMas").click(function() {
-	$(this).addClass('none');
-	$(".parrafo").removeClass('none');
-	$("#excelMenos").removeClass('none');
+$("#todos").click(function() {
+	$(".contenido1").removeClass('none');
+	$(".row1").removeClass('none');
+	$(".contenido2").removeClass('noe');
+	$(".row2").removeClass('none');
+	$(".contenido3").removeClass('none');
+	$(".row3").removeClass('none');
+});
+
+$("#anteproyecto").click(function() {
+	$(".contenido1").removeClass('none');
+	$(".row1").removeClass('none');
+	$(".contenido2").addClass('noe');
+	$(".row2").addClass('none');
+	$(".contenido3").addClass('none');
+	$(".row3").addClass('none');
+});
+
+$("#desarrollo").click(function() {
+	$(".contenido1").addClass('none');
+	$(".row1").addClass('none');
+	$(".contenido2").removeClass('noe');
+	$(".row2").removeClass('none');
+	$(".contenido3").addClass('none');
+	$(".row3").addClass('none');
+});
+
+$("#otros").click(function() {
+	$(".contenido1").addClass('none');
+	$(".row1").addClass('none');
+	$(".contenido2").addClass('noe');
+	$(".row2").addClass('none');
+	$(".contenido3").removeClass('none');
+	$(".row3").removeClass('none');
 });
 
 $("#excelMenos").click(function() {
