@@ -18,89 +18,48 @@ $("inicio").hover(function () {
 $("#todos").click(function() {
 	$(".contenido1").removeClass('none');
 	$(".row1").removeClass('none');
-	$(".contenido2").removeClass('noe');
+	$(".contenido2").removeClass('none');
 	$(".row2").removeClass('none');
 	$(".contenido3").removeClass('none');
-	$(".row3").removeClass('none');
+	$(".rowotro").removeClass('none');
+	$("#espacio2").removeClass('espacio')
+	$("#espacio1").addClass('espacio')
+	$("#padding").removeClass('padding-inferior');
+	$(".rowotro").addClass('padding-inferior');
+	$("#submenu").addClass('margen');
 });
 
 $("#anteproyecto").click(function() {
 	$(".contenido1").removeClass('none');
 	$(".row1").removeClass('none');
-	$(".contenido2").addClass('noe');
+	$(".contenido2").addClass('none');
 	$(".row2").addClass('none');
 	$(".contenido3").addClass('none');
-	$(".row3").addClass('none');
+	$(".rowotro").addClass('none');
+	$("#padding").addClass('padding-inferior');
 });
 
 $("#desarrollo").click(function() {
 	$(".contenido1").addClass('none');
 	$(".row1").addClass('none');
-	$(".contenido2").removeClass('noe');
+	$(".contenido2").removeClass('none');
 	$(".row2").removeClass('none');
 	$(".contenido3").addClass('none');
-	$(".row3").addClass('none');
+	$(".rowotro").removeClass('none');
+	$("#padding").removeClass('.padding-inferior');
+	$(".rowotro").addClass('padding-inferior');
 });
 
 $("#otros").click(function() {
 	$(".contenido1").addClass('none');
 	$(".row1").addClass('none');
-	$(".contenido2").addClass('noe');
+	$(".contenido2").addClass('none');
 	$(".row2").addClass('none');
 	$(".contenido3").removeClass('none');
-	$(".row3").removeClass('none');
+	$(".rowotro").removeClass('none');
+	$("#espacio2").addClass('espacio')
+	$("#espacio1").removeClass('espacio')
+	$("#padding").removeClass('.padding-inferior');
+	$(".rowotro").addClass('padding-inferior');
 });
 
-$("#excelMenos").click(function() {
-	$(this).addClass('none');
-	$(".parrafo").addClass('none');
-	$("#excelMas").removeClass('none');
-});
-
-$("#accesMas").click(function() {
-	$(this).addClass('none');
-	$(".parrafoAcces").removeClass('none');
-	$("#accesMenos").removeClass('none');
-});
-
-$("#accesMenos").click(function() {
-	$(this).addClass('none');
-	$(".parrafoAcces").addClass('none');
-	$("#accesMas").removeClass('none');
-});
-
-$("#insertMas").click(function() {
-	$(this).addClass('none');
-	$(".parrafoInsert").removeClass('none');
-	$("#insertMenos").removeClass('none');
-});
-
-$("#insertMenos").click(function() {
-	$(this).addClass('none');
-	$(".parrafoInsert").addClass('none');
-	$("#insertMas").removeClass('none');
-});
-
-$("#analisisMas").click(function() {
-	$(this).addClass('none');
-	$(".parrafoAnalisis").removeClass('none');
-	$("#analisisMenos").removeClass('none');
-});
-
-$("#analisisMenos").click(function() {
-	$(this).addClass('none');
-	$(".parrafoAnalisis").addClass('none');
-	$("#analisisMas").removeClass('none');
-});
-
-$("#plataformaMas").click(function() {
-	$(this).addClass('none');
-	$(".parrafoPlataforma").removeClass('none');
-	$("#plataformaMenos").removeClass('none');
-});
-
-$("#plataformaMenos").click(function() {
-	$(this).addClass('none');
-	$(".parrafoPlataforma").addClass('none');
-	$("#plataformaMas").removeClass('none');
-});
