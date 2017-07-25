@@ -166,6 +166,7 @@ header a {
     width: 4em;
     color: white;
     transition: 1s;
+    z-index: 4;
 }
 
 .footer .rounded-circle.top:hover {
@@ -225,6 +226,18 @@ header a {
 	background-color: 
 }
 
+.cuerpo-servicios, .cuerpo-index, .cuerpo-info, .cuerpo-contacto {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.body-servicios, .body, .body-info, .section{
+	flex: 1;
+	background-color: white;
+	z-index: 3;
+}
+
 .servicios h1 {
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -250,7 +263,7 @@ header a {
 }
 .body-servicios .row{
 
-	min-height: 13em;
+	min-height: 12em;
 }
 
 .body-servicios h3{
@@ -293,8 +306,50 @@ header a {
 .none{
 	display: none!important;
 	height: 0;
+	animation: none;
 	
 }
+
+
+.contenido1, .contenido2, .contenido3 {
+  animation-duration: 1s;
+  animation-name: mover;
+  animation-direction: normal;
+  min-height: 12em;
+}
+
+@keyframes mover {
+  from {
+    margin-top: 100%;
+    height: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+
+.mover{
+  animation-duration: 1s;
+  animation-name: suing;
+  animation-direction: normal;
+  min-height: 12em;
+}
+
+@keyframes suing {
+  from {
+    margin-top: 100%;
+    height: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+
+
 
 .padding-inferior{
 	padding-bottom: 2em
@@ -386,6 +441,27 @@ header a {
 	background-color: #e28315;
 }
 
+.body-info p{
+	text-align: justify;
+}
+
+.body-info p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 
 @media (max-width: 576px) { 
 	.derecha {
@@ -414,7 +490,9 @@ header a {
 	.body-servicios .inferior {
 		margin-bottom: 4em;
 	}
-
+	.body-info a{
+		
+	}
 
 }
 

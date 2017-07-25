@@ -27,6 +27,9 @@ $("#todos").click(function() {
 	$("#padding").removeClass('padding-inferior');
 	$(".rowotro").addClass('padding-inferior');
 	$("#submenu").addClass('margen');
+	$(".contenido1").addClass('mover');
+	$(".contenido2").addClass('mover');
+	$(".contenido3").addClass('mover');
 });
 
 $("#anteproyecto").click(function() {
@@ -37,6 +40,9 @@ $("#anteproyecto").click(function() {
 	$(".contenido3").addClass('none');
 	$(".rowotro").addClass('none');
 	$("#padding").addClass('padding-inferior');
+	$(".contenido1").removeClass('mover');
+	$(".contenido2").removeClass('mover');
+	$(".contenido3").removeClass('mover');
 });
 
 $("#desarrollo").click(function() {
@@ -48,6 +54,9 @@ $("#desarrollo").click(function() {
 	$(".rowotro").removeClass('none');
 	$("#padding").removeClass('.padding-inferior');
 	$(".rowotro").addClass('padding-inferior');
+	$(".contenido1").removeClass('mover');
+	$(".contenido2").removeClass('mover');
+	$(".contenido3").removeClass('mover');
 });
 
 $("#otros").click(function() {
@@ -55,11 +64,16 @@ $("#otros").click(function() {
 	$(".row1").addClass('none');
 	$(".contenido2").addClass('none');
 	$(".row2").addClass('none');
+	$(".contenido3").addClass('none');
+	$(".rowotro").addClass('none');
 	$(".contenido3").removeClass('none');
 	$(".rowotro").removeClass('none');
 	$("#espacio2").addClass('espacio')
 	$("#espacio1").removeClass('espacio')
 	$("#padding").removeClass('.padding-inferior');
 	$(".rowotro").addClass('padding-inferior');
+	$(".contenido1").removeClass('mover');
+	$(".contenido2").removeClass('mover');
+	$(".contenido3").removeClass('mover');
 });
 
