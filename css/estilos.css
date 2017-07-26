@@ -48,6 +48,9 @@ font-family: 'Fugaz One', cursive;*/
 	margin-top: 3em;
 	margin-bottom: 4em;
 	font-family: 'Hammersmith One', sans-serif;
+	background-color: rgba(0, 0, 0, 0.69);
+    border-radius: 20px;
+    width: 5em;
 }
 
 .boton-inicio {
@@ -284,7 +287,7 @@ header a {
 .introduccion p{
 	text-align: justify;
 	margin-top:3em;
-	font-size: 1.1em!important;
+	font-size: 1em!important;
 	font-family: 'Roboto Slab', serif;
 
 }
@@ -350,7 +353,7 @@ header a {
 
 
 .contenido1, .contenido2, .contenido3 {
-  animation-duration: 1s;
+  animation-duration: .5s;
   animation-name: mover;
   animation-direction: normal;
   min-height: 12em;
@@ -398,9 +401,8 @@ header a {
 }
 .body-servicios p {
 	text-align: justify;
+	font-size: .9em;
 }
-
-
 
 .contacto {
 	padding-top: 3em;
@@ -412,6 +414,13 @@ header a {
 	margin-top: 1em;
 }
 
+.negrilla {
+	font-family: 'Fugaz One', cursive;
+}
+
+.letra{
+	font-family: 'Hammersmith One', sans-serif
+}
 .contacto .form .row input {
 	width: 100%;
 }
@@ -457,19 +466,23 @@ header a {
 }
 
 .title4 {
-	color: black;
+	color: white;
 	text-align: center;
 	margin-top: 3em;
     margin-bottom: 4em;
     font-family: 'Hammersmith One', sans-serif;
+    background-color: rgba(0, 0, 0, 0.69);
+    border-radius: 20px;
+    width: 6em;
 }
 
 .body-info h3{
 	margin-top:1em;
+	margin-top: .4em;
 }
 
 .body-info a{
-	margin-bottom: 2em;
+	margin-bottom: 1em;
 	border: 1px solid black;
 	color: black;
 }
