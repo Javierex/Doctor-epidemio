@@ -234,6 +234,10 @@ header a {
 	color: black;
 }
 
+.grande {
+	margin-top: 12em;
+}
+
 .btn.enviar {
 	margin-top: 1em;
 }
