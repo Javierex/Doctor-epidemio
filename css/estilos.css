@@ -1,5 +1,10 @@
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Fugaz One', cursive;*/
+
+
 .fixed {
-	background: #000 url(../img/imagen.jpg) no-repeat 0 0;
+	background: #000 url(../img/gafas2.jpg) no-repeat 0 0;
     background-size: cover;
     position: fixed;
     width: 100%;
@@ -8,16 +13,16 @@
 }
 
 .fixed2 {
-	background: #000 url(../img/info.jpg) no-repeat 0 0;
+	background: #000 url(../img/info2.jpg) no-repeat 0 0;
     background-size: cover;
     position: fixed;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     top: 0;
 }
 
 .fixed3 {
-	background: #000 url(../img/telefono.jpg) no-repeat 0 0;
+	background: #000 url(../img/telefono2.jpg) no-repeat 0 0;
     background-size: cover;
     position: fixed;
     width: 100%;
@@ -26,7 +31,7 @@
 }
 
 .fixed4 {
-	background: #000 url(../img/libro.jpg) no-repeat 0 0;
+	background: #000 url(../img/libro2.jpg) no-repeat 0 0;
     background-size: cover;
     position: fixed;
     width: 100%;
@@ -36,11 +41,13 @@
 
 .title {
 	margin-top: 3em;
+	font-family: 'Fugaz One', cursive;
 }
 
 .servicios .title2 {
 	margin-top: 3em;
 	margin-bottom: 4em;
+	font-family: 'Hammersmith One', sans-serif;
 }
 
 .boton-inicio {
@@ -73,6 +80,7 @@ header a {
 
 .titulito {
 	font-size: 1em;
+	font-family: 'Roboto Slab', serif;
 }
 
 .tamano {
@@ -106,11 +114,14 @@ header a {
 }
 .body p, .body a{
 	text-align: justify;
+	font-family: 'Roboto Slab', serif;
 }
 
 .body h2 {
 	text-align: center;
 	margin-top: 1em;
+	font-family: 'Hammersmith One', sans-serif;
+
 }
 
 .borde {
@@ -273,6 +284,9 @@ header a {
 .introduccion p{
 	text-align: justify;
 	margin-top:3em;
+	font-size: 1.1em!important;
+	font-family: 'Roboto Slab', serif;
+
 }
 
 .espacio {
@@ -291,10 +305,12 @@ header a {
 .body-servicios h3{
 	margin-top: 1em;
 	font-size: 1.5em;
+	font-family: 'Hammersmith One', sans-serif
 }
 
 .body-servicios p {
-	font-size: 0.9em;
+	font-size: 1em;
+	font-family: 'Roboto Slab', serif;
 }
 
 .body-servicios .introduccion {
@@ -342,13 +358,13 @@ header a {
 
 @keyframes mover {
   from {
-    margin-top: 100%;
-    height: 300%;
+    margin-top: 100em;
+    height: 300em;
   }
 
   to {
-    margin-top: 2.5%;
-    height: 100%;
+    margin-top: 2em;
+    height: 100em;
   }
 }
 
@@ -445,6 +461,7 @@ header a {
 	text-align: center;
 	margin-top: 3em;
     margin-bottom: 4em;
+    font-family: 'Hammersmith One', sans-serif;
 }
 
 .body-info h3{
@@ -465,6 +482,8 @@ header a {
 
 .body-info p{
 	text-align: justify;
+	font-family: 'Roboto Slab', serif;
+	font-size: 0.9em;
 }
 
 @media (max-width: 576px) { 
@@ -497,6 +516,42 @@ header a {
 
 	.padding-imagen {
 	    margin-left: 3em;
+	}
+
+	.fixed {
+		background: #000 url(../img/imagen.jpg) no-repeat 0 0;
+	    background-size: cover;
+	    position: fixed;
+	    width: 100%;
+	    height: 100vh;
+	    top: 0;
+	}
+
+	.fixed2 {
+		background: #000 url(../img/info.jpg) no-repeat 0 0;
+	    background-size: cover;
+	    position: fixed;
+	    width: 100%;
+	    height: 80vh;
+	    top: 0;
+	}
+
+	.fixed3 {
+		background: #000 url(../img/telefono.jpg) no-repeat 0 0;
+	    background-size: cover;
+	    position: fixed;
+	    width: 100%;
+	    height: 100vh;
+	    top: 0;
+	}
+
+	.fixed4 {
+		background: #000 url(../img/libro.jpg) no-repeat 0 0;
+	    background-size: cover;
+	    position: fixed;
+	    width: 100%;
+	    height: 60vh;
+	    top: 0;
 	}
 }
 
@@ -535,6 +590,42 @@ header a {
 
 	.body-servicios .inferior {
 		margin-bottom: 4em;
+	}
+
+	.fixed {
+		background: #000 url(../img/imagen.jpg) no-repeat 0 0;
+	    background-size: cover;
+	    position: fixed;
+	    width: 100%;
+	    height: 100vh;
+	    top: 0;
+	}
+
+	.fixed2 {
+		background: #000 url(../img/info.jpg) no-repeat 0 0;
+	    background-size: cover;
+	    position: fixed;
+	    width: 100%;
+	    height: 80vh;
+	    top: 0;
+	}
+
+	.fixed3 {
+		background: #000 url(../img/telefono3.jpg) no-repeat 0 0;
+	    background-size: cover;
+	    position: fixed;
+	    width: 100%;
+	    height: 100vh;
+	    top: 0;
+	}
+
+	.fixed4 {
+		background: #000 url(../img/libro3.jpg) no-repeat 0 0;
+	    background-size: cover;
+	    position: fixed;
+	    width: 100%;
+	    height: 60vh;
+	    top: 0;
 	}
 
 }
@@ -580,6 +671,42 @@ header a {
 	}
 	.body-servicios .inferior {
 		margin-bottom: 2em;
+	}
+
+	.fixed {
+		background: #000 url(../img/gafas2.jpg) no-repeat 0 0;
+	    background-size: cover;
+	    position: fixed;
+	    width: 100%;
+	    height: 100vh;
+	    top: 0;
+	}
+
+	.fixed2 {
+		background: #000 url(../img/info2.jpg) no-repeat 0 0;
+	    background-size: cover;
+	    position: fixed;
+	    width: 100%;
+	    height: 80vh;
+	    top: 0;
+	}
+
+	.fixed3 {
+		background: #000 url(../img/telefono2.jpg) no-repeat 0 0;
+	    background-size: cover;
+	    position: fixed;
+	    width: 100%;
+	    height: 100vh;
+	    top: 0;
+	}
+
+	.fixed4 {
+		background: #000 url(../img/libro2.jpg) no-repeat 0 0;
+	    background-size: cover;
+	    position: fixed;
+	    width: 100%;
+	    height: 60vh;
+	    top: 0;
 	}
 }
 
