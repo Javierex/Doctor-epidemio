@@ -41,16 +41,13 @@ font-family: 'Fugaz One', cursive;*/
 
 .title {
 	margin-top: 3em;
-	font-family: 'Fugaz One', cursive;
+	font-family: 'Hammersmith One', sans-serif;
 }
 
 .servicios .title2 {
 	margin-top: 3em;
 	margin-bottom: 4em;
 	font-family: 'Hammersmith One', sans-serif;
-	background-color: rgba(0, 0, 0, 0.69);
-    border-radius: 20px;
-    width: 5em;
 }
 
 .boton-inicio {
@@ -415,11 +412,12 @@ header a {
 }
 
 .negrilla {
-	font-family: 'Fugaz One', cursive;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 1.1em;
 }
 
 .letra{
-	font-family: 'Hammersmith One', sans-serif
+	font-family: 'Hammersmith One', sans-serif;
 }
 .contacto .form .row input {
 	width: 100%;
@@ -471,9 +469,6 @@ header a {
 	margin-top: 3em;
     margin-bottom: 4em;
     font-family: 'Hammersmith One', sans-serif;
-    background-color: rgba(0, 0, 0, 0.69);
-    border-radius: 20px;
-    width: 6em;
 }
 
 .body-info h3{
