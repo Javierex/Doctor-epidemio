@@ -44,7 +44,7 @@ header img {
 }
 
 .footer img {
-	width: 12em;
+	width: 8em;
 }
 .title {
 	margin-top: 3em;
@@ -187,7 +187,7 @@ header a {
 
 .items {
 	margin-bottom: 4em;
-	margin: 0 32px;
+	margin: 1em 32px;
 }
 
 .footer .top {
@@ -215,6 +215,10 @@ header a {
 
 .footer .centrado {
 	top: 0;
+}
+
+.footer p{
+	margin-bottom: 2em!important;
 }
 
 .footer .container {
