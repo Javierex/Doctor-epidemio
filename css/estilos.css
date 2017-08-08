@@ -39,6 +39,13 @@ font-family: 'Fugaz One', cursive;*/
     top: 0;
 }
 
+header img {
+	width: 7em;
+}
+
+.footer img {
+	width: 12em;
+}
 .title {
 	margin-top: 3em;
 	font-family: 'Hammersmith One', sans-serif;

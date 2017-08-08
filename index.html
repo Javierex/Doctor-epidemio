@@ -2,7 +2,10 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Doctor Epidemio</title>
+	<link rel="shortcut icon" href="img/icon.ico">
+	<title>Le ayudamos con su trabajo de investigación | Doctor Epidemio</title>
+	<meta name="description" content="En Doctor Epidemio nos especializamos en resolver sus necesidades de investigación. Consulte los servicios que ofrecemos y solicite su cotización. Permítanos ayudarle a terminar su proyecto.">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -33,7 +36,11 @@
 				</button>
 				<div class="container justify-content-between block">
 					<div class="col-3 padding-imagen">
-						  <a class="navbar-brand" href="index.html"><img src="img/0.png"></a>
+						<div itemscope itemtype= "http://schema.org/ImageObject">
+							<a class="navbar-brand" href="index.html">
+						  	<img src="img/0.png" itemprop ="contentURL" alt="Doctor Epidemio">
+						  </a>
+						</div> 
 					</div>
 					<div class=" col-12 col-md-8 col-lg-6">
 						<div class="collapse navbar-collapse " id="navbarNavAltMarkup">
@@ -50,41 +57,43 @@
 			</nav>
 		</header>
 	<!-- /Navegador -->
-
-	<section class="header">
-		
-		<div class="container">
-			<div class="row">
-				<div class="col-12 ">
-					<h1 class="title">Doctor Epidemio</h1>
-					<h2 class="titulito"><B>Le ayudamos con su trabajo de investigación</B></h2>
-					<a href="servicios.html" class="btn btn-outline-secondary boton-inicio">Conoce más</a>
+	<div itemscope itemtype="http://schema.org/Service" >
+		<meta itemprop="serviceType" content="Le ayudamos con su tesis" />
+		<section class="header">
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-12 ">
+						<h1 class="title">Doctor Epidemio</h1>
+						<h2 class="titulito" itemprop="name"><B>Le ayudamos con su trabajo de investigación</B></h2>
+						<a href="servicios.html" class="btn btn-outline-secondary boton-inicio">Conoce más</a>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<section class="body">
-		<div class="container">
-			<div class="row d-flex justify-content-center">
-				<div class="col-8 borde ">
-					<h2>Quiénes somos</h2>
-					<p class="centrado">En Doctor Epidemio nos especializamos en resolver sus necesidades de investigación. Consulte los servicios que ofrecemos y solicite su cotización. Permítanos ayudarle a terminar su proyecto.
-					<br>
-					<br>
+		<section class="body">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="col-8 borde ">
+						<h2>Quiénes somos</h2>
+						<p class="centrado"><span itemprop="description">En Doctor Epidemio nos especializamos en resolver sus necesidades de investigación. </span>Consulte los servicios que ofrecemos y solicite su cotización. Permítanos ayudarle a terminar su proyecto.</p>
+						<br>
+						<br>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div ></div>
-	</section>
-
+			<div ></div>
+		</section>
+	
+	</div>
 
 	<!-- Footer -->	
   	<footer class="footer">
 	  		<div class="container">
 					<a  class="rounded-circle top arriba" id="arriba" title="Scroll to the top" href="#top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
 	  			<div class="row d-flex justify-content-center">
-	  				<h5><img src="img/0.png"></h5>
+	  				<h5><img src="img/0.png" alt="Doctor Epidemio"></h5>
 	  			</div>
 	  			<div class="row d-flex justify-content-center">
 	  				<p style="margin-top: 1EM;">© 2017 Doctor Epidemio </p>
